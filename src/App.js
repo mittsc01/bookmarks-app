@@ -50,6 +50,7 @@ class App extends Component {
       bookmarks: [ ...this.state.bookmarks, bookmark ],
     })
   }
+  
 
   componentDidMount() {
     fetch(config.API_ENDPOINT, {
